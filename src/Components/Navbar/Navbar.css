@@ -1,0 +1,58 @@
+.navicon {
+  width: 200px;
+  justify-content: space-between;
+}
+
+.navimg {
+  width: 40%;
+  height: auto;
+}
+
+.block1Nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.FilterNav {
+  position: relative;
+  margin-top: -100px;
+  width: 80vw;
+  height: 150px;
+  background-color: #4f565e;
+  margin: 0 auto;
+  margin-top: -70px;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0px 13px 29px 0px black;
+}
+
+.css-pqjvzy-MuiSvgIcon-root-MuiSelect-icon {
+  color: rgb(255, 255, 255) !important;
+}
+.css-aqpgxn-MuiFormLabel-root-MuiInputLabel-root {
+  color: rgb(255, 255, 255) !important;
+}
+.css-1c2i806-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: rgb(255, 255, 255) !important;
+}
+
+.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root {
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+  box-shadow: 0px 11px 10px -9px #ffffff66;
+}
+
+.css-m5hdmq-MuiInputBase-root-MuiInput-root-MuiSelect-root:after {
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+}
+
+.css-1869usk-MuiFormControl-root {
+  min-width: 180px !important;
+}
+@media (min-width: 0px) {
+  .css-k6ywwb {
+    display: flex !important;
+  }
+}
