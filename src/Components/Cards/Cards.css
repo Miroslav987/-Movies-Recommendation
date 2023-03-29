@@ -1,0 +1,80 @@
+.Categcard {
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.CategcardText {
+  margin: auto;
+  width: 90.5vw;
+  display: flex;
+  justify-content: space-between;
+}
+.CategcardText p {
+  font-size: 20px;
+  transform: scale(1.1, 1);
+  letter-spacing: 0.5px;
+}
+.Containercard {
+  box-shadow: 0px 0px 11px 7px #19191999;
+  margin-top: 120px;
+  width: 100%;
+  height: auto;
+  background: #4f565e;
+  color: white;
+}
+
+/* .textline:active {
+  border-bottom: none;
+} */
+
+.active .textline {
+  position: relative;
+  padding-top: 35.5px;
+  border-bottom: 5px solid #fccc25;
+}
+
+.line {
+  margin: auto;
+  margin-top: 38px;
+  width: 90vw;
+  outline: 3px solid white;
+}
+
+.boxline {
+  height: 40px;
+  position: relative;
+  text-align: center;
+  /* background: #fccc25; */
+  /* border-bottom: 5px solid #fccc25; */
+  /* border: 5px solid yellow; */
+}
+
+.boxline p {
+  padding: 5px 20px;
+}
+
+.active .boxline p {
+  padding: 5px 20px;
+  background: #fccc25;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px -3px #00000099;
+}
+
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
+  border: none !important;
+  border-radius: 5px !important;
+  background-color: #fccc25 !important;
+  height: 45px !important;
+  width: 50px !important;
+  color: white !important;
+  box-shadow: 0px 0px 11px 1px #19191999;
+}
+
+.css-1v2lvtn-MuiPaginationItem-root {
+  color: white !important;
+}
+
+.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {
+  background-color: #a98e2a !important;
+  color: rgb(227, 227, 227) !important;
+}
