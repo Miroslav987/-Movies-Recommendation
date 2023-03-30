@@ -1,0 +1,29 @@
+.modalprofile {
+  position: absolute;
+  top: 55px;
+  right: 1%;
+  width: 270px;
+  height: auto;
+  box-shadow: 0px 0px 7px 0px #252525;
+  background-color: #9ca6b2;
+  border-radius: 5px;
+  z-index: 15;
+}
+.modalprofile:hover {
+  transition: 20s;
+}
+.modalprofile_info {
+  /* margin: 20px; */
+  color: #ffffff;
+}
+
+#line {
+  position: absolute;
+  width: 100%;
+  border-bottom: 0.1px solid #c7c7c7;
+}
+
+.modal1Img {
+  width: 2.3rem !important;
+  height: 2.3rem !important;
+}
