@@ -33,15 +33,16 @@ export const Navinfo = () => {
               <Typography sx={{ borderBottom: "1px solid white" }}>
                 mirsichkar@gmail.com
               </Typography>
-
-              <IconButton
-                size="large"
-                edge="end"
-                aria-label="account of current user"
-                aria-haspopup="true"
-                color="inherit">
-                <UserIcon className="modal1Img" />
-              </IconButton>
+              <Link to="/login">
+                <IconButton
+                  size="large"
+                  edge="end"
+                  aria-label="account of current user"
+                  aria-haspopup="true"
+                  color="inherit">
+                  <UserIcon className="modal1Img" />
+                </IconButton>
+              </Link>
             </Box>
 
             <Link to="/newcards">
