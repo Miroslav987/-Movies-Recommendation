@@ -3,7 +3,6 @@ import Box from "@mui/material/Box";
 import { Typography } from "@mui/material";
 
 import "./Cards.css";
-import { Link } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import { MainRouter } from "../../MainRouter";
 export const Cards = () => {

@@ -19,25 +19,34 @@ import "./Navbar.css";
 import image from "../media/Navimage.png";
 import { useState } from "react";
 import { Mainrouter2 } from "../../Mainrouter2";
+import { useNavigate } from "react-router-dom";
+
 export const Navbar = () => {
+  const navigate = useNavigate();
+  const navigateToLoginPage = () => {
+    navigate("/login");
+  };
   // function handleSave() {}
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar
         sx={{ background: "#282F39", color: "#FCCC25" }}
-        position="static">
+        position="static"
+      >
         <Toolbar>
           <IconButton
             size="large"
             edge="start"
             color="inherit"
             aria-label="open drawer"
-            sx={{ mr: 2 }}></IconButton>
+            sx={{ mr: 2 }}
+          ></IconButton>
           <Typography
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: "none", sm: "block" } }}>
+            sx={{ display: { xs: "none", sm: "block" } }}
+          >
             YOURMOVIE
           </Typography>
 
@@ -46,23 +55,27 @@ export const Navbar = () => {
             <IconButton
               size="large"
               aria-label="show 4 new mails"
-              color="inherit">
+              color="inherit"
+            >
               <SearchIcon />
             </IconButton>
             <IconButton
               size="large"
               aria-label="show 17 new notifications"
-              color="inherit">
+              color="inherit"
+            >
               <Badge badgeContent={0} color="error">
                 <LikeIcon />
               </Badge>
             </IconButton>
             <IconButton
+              onClick={navigateToLoginPage}
               size="large"
               edge="end"
               aria-label="account of current user"
               aria-haspopup="true"
-              color="inherit">
+              color="inherit"
+            >
               <UserIcon />
             </IconButton>
           </Box>
