@@ -6,7 +6,6 @@ import { Cards } from "./Components/Cards/Cards";
 import { Footer } from "./Components/Footer/Footer";
 import { Navbar } from "./Components/Navbar/Navbar";
 
-import { MainRouter } from "./MainRouter";
 const App: React.FC = () => {
   return (
     <>

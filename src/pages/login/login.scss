@@ -1,0 +1,125 @@
+.auth {
+  position: relative;
+  background: #fccc25;
+  z-index: 10;
+
+  &__icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 62px 78px 22px;
+  }
+
+  &__title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: -0.200456px;
+    color: #ffffff;
+    padding-bottom: 75px;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
+    padding-bottom: 47px;
+
+    &-input {
+      padding: 13px;
+      width: 416.13px;
+      height: 40.79px;
+      background: #ffffff;
+      border-radius: 8.92982px;
+      border: none;
+      outline: none;
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 14px;
+      color: rgba(30, 30, 30, 0.6);
+    }
+  }
+
+  &__password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 78px 56px;
+
+    & span a {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14.2877px;
+      line-height: 13px;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+}
+
+.authCart {
+  position: absolute;
+  top: 50px;
+  left: 435px;
+  z-index: 9;
+  width: 570px;
+  height: 600px;
+  background: #9ca6b2;
+  box-shadow: 0px 105.092px 41.8327px rgba(0, 0, 0, 0.01),
+    0px 59.1779px 35.7108px rgba(0, 0, 0, 0.05),
+    0px 26.528px 26.528px rgba(0, 0, 0, 0.09),
+    0px 6.12185px 14.2843px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8.92982px;
+}
+
+.authCart__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 39px;
+
+  & button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    background: #fccc25;
+    box-shadow: 0px 105.092px 41.8327px rgba(0, 0, 0, 0.01),
+      0px 59.1779px 35.7108px rgba(0, 0, 0, 0.05),
+      0px 26.528px 26.528px rgba(0, 0, 0, 0.09),
+      0px 6.12185px 14.2843px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4.46491px;
+    display: flex;
+
+    &:hover {
+      background: transparent;
+    }
+
+    & a {
+      font-family: "Montserrat";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 17.8596px;
+      line-height: 13px;
+      color: #ffffff;
+      padding: 13px 58px;
+    }
+  }
+
+  & p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+}

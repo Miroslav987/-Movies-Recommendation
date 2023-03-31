@@ -33,7 +33,8 @@ export const Filter = () => {
           justifyContent: "space-between",
           alignItems: "center",
           background: "#fccc25",
-        }}>
+        }}
+      >
         <img className="navimg" src={image} alt="" />
         <Box sx={{ flexGrow: 0.01 }} />
         <Typography
@@ -44,7 +45,8 @@ export const Filter = () => {
             textAlign: "center",
             fontSize: "50px",
             textShadow: "0px 1px 8px #0000004d",
-          }}>
+          }}
+        >
           ЛУЧШИЕ <br /> РЕКОМЕНДОВАННЫЕ <br /> ФИЛЬМЫ
         </Typography>
         <Box sx={{ flexGrow: 0.01 }} />
@@ -58,8 +60,9 @@ export const Filter = () => {
             labelId="demo-simple-select-standard-label"
             id="demo-simple-select-standard"
             value={age}
-            onChange={e => SetAge(e.target.value)}
-            label="Age">
+            onChange={(e) => SetAge(e.target.value)}
+            label="Age"
+          >
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -80,8 +83,9 @@ export const Filter = () => {
             labelId="demo-simple-select-standard-label"
             id="demo-simple-select-standard"
             value={age}
-            onChange={e => SetAge(e.target.value)}
-            label="Age">
+            onChange={(e) => SetAge(e.target.value)}
+            label="Age"
+          >
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -102,8 +106,9 @@ export const Filter = () => {
             labelId="demo-simple-select-standard-label"
             id="demo-simple-select-standard"
             value={age}
-            onChange={e => SetAge(e.target.value)}
-            label="Age">
+            onChange={(e) => SetAge(e.target.value)}
+            label="Age"
+          >
             <MenuItem value="">
               <em>None</em>
             </MenuItem>
@@ -126,10 +131,13 @@ export const Filter = () => {
             paddingLeft: "20px",
             paddingRight: "20px",
             transform: "scale(1.1,1)",
-          }}>
+          }}
+        >
           Искать
         </Button>
       </Box>
     </>
   );
 };
+
+export default Filter;
